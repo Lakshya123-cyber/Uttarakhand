@@ -8,7 +8,7 @@ function About() {
     <>
       <Hero
         cName="hero-mid"
-        heroVid="src/assets/videos/about.mp4"
+        heroVid="/videos/about.mp4"
         title="About Us"
         subtitle="Get to know us more!"
         btnClass="hide"

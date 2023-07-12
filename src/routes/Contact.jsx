@@ -8,7 +8,7 @@ function Contact() {
     <>
       <Hero
         cName="hero-mid"
-        heroVid="src/assets/videos/contact.mp4"
+        heroVid="/videos/contact.mp4"
         title="Contact Us"
         subtitle="Get in touch with us"
         btnClass="hide"

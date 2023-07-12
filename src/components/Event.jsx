@@ -10,17 +10,17 @@ function Event() {
       <p>Check out our ongoing and recent events</p>
       <div className="eventcard">
         <EventData
-          image="src/assets/images/kauthig.jpg"
+          image="/images/kauthig.jpg"
           heading="Kauthig 2023"
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
         />
         <EventData
-          image="src/assets/images/kauthig.jpg"
+          image="/images/kauthig.jpg"
           heading="Diwali 2019"
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
         />
         <EventData
-          image="src/assets/images/kauthig.jpg"
+          image="/images/kauthig.jpg"
           heading="Kauthig 2019"
           text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
         />

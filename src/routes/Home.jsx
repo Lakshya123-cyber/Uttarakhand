@@ -9,7 +9,7 @@ function Home() {
     <>
       <Hero
         cName="hero"
-        heroVid="src/assets/videos/videoo.mp4"
+        heroVid="/videos/videoo.mp4"
         title="Uttarakhand Association of Singapore"
         subtitle="Welcome to UASG!"
         btnText="About Us"

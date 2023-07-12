@@ -8,7 +8,7 @@ function Members() {
     <>
       <Hero
         cName="hero-mid"
-        heroVid="src/assets/videos/members.mp4"
+        heroVid="/videos/members.mp4"
         title="Our Members"
         subtitle="Nothing is possible without them"
         btnClass="hide"
@@ -16,17 +16,17 @@ function Members() {
       <div className="event">
         <div className="eventcard">
           <EventData
-            image="src/assets/images/logo.png"
+            image="/images/logo.png"
             heading="Harish Pant"
             text="The President of Uttarakhand Association of Singapore"
           />
           <EventData
-            image="src/assets/images/logo.png"
+            image="/images/logo.png"
             heading="Atima Joshi"
             text="The Vice President of Uttarakhand Association of Singapore"
           />
           <EventData
-            image="src/assets/images/logo.png"
+            image="/images/logo.png"
             heading="Sunil Thapliyal"
             text="The Secretary of Uttarakhand Association of Singapore"
           />

@@ -13,7 +13,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <img src="src/assets/images/logo.png" className="navbar-logo" />
+        <img src="/images/logo.png" className="navbar-logo" />
 
         <div className="menu-icons" onClick={this.handleClick}>
           <i
