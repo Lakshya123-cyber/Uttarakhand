@@ -54,6 +54,23 @@ video {
   color: #652420;
 }
 
+.member-text {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.member-text .show {
+  text-decoration: none;
+  background: #652420;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 .hero-text .hide {
   display: none;
 }

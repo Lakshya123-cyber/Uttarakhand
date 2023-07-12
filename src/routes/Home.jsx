@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Destination from "../components/Destination";
 import Event from "../components/Event";
 import Footer from "../components/Footer";
+import Membership from "../components/Membership";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       />
       <Destination />
       <Event />
+      <Membership />
       <Footer />
     </>
   );
