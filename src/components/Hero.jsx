@@ -4,7 +4,7 @@ function Hero(props) {
   return (
     <>
       <div className={props.cName}>
-        <video src={props.heroVid} autoPlay loop muted />
+        <video src={props.heroVid} autoPlay loop muted playsInline />
 
         <div className="hero-text">
           <h1>{props.title}</h1>
