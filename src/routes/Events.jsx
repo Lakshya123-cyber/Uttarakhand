@@ -54,7 +54,7 @@ function Events() {
         </div>
         <div className="eventcard">
           <EventData
-            image="/images/holi.png"
+            image="/images/holi.jpg"
             heading="Holi 2019"
             text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
           />
