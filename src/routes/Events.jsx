@@ -21,11 +21,26 @@ function Events() {
         <h1>Our Events and Community Supports</h1>
         <p>Check out our ongoing and recent events</p>
         <div className="eventcard">
-          <EventData
-            image="/images/cover.png"
-            heading="Kauthig 2023"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
-          />
+          <div className="e-card">
+            <div className="e-image">
+              <img alt="image" src="/images/cover.png" />
+            </div>
+            <h4>Kauthig 2023</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero
+              aliquid doloribus cum ab, iusto perferendis eligendi aliquam
+              adipisci soluta. Saepe expedita laudantium enim quas natus? Qui
+              corporis aliquid, dolore facilis animi dolor, nesciunt itaque et
+              atque hic vitae unde!
+            </p>
+            <br />
+            <br />
+            <a href="/kauthig.pdf" target="_blank" rel="noopener noreferrer">
+              <button style={{ color: "white", backgroundColor: "#652420" }}>
+                Read More
+              </button>
+            </a>
+          </div>
           <EventData
             image="/images/diwali.jpeg"
             heading="Diwali 2022"
@@ -46,11 +61,6 @@ function Events() {
           <EventData
             image="/images/redd.jpg"
             heading="Red Cross Volunteering"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
-          />
-          <EventData
-            image="/images/kauthig.jpg"
-            heading="Kauthig 2019"
             text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
           />
         </div>

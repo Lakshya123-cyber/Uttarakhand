@@ -5,13 +5,16 @@ const Footer = () => {
     <footer>
       <div className="footerContainer">
         <div className="socialIcons">
-          <a href="">
-            <i className="fa-brands fa-facebook"></i>
+          <a
+            target="_blank"
+            href="https://youtube.com/@UttarakhandAssociationofSG"
+          >
+            <i className="fa-brands fa-youtube"></i>
           </a>
-          <a href="">
+          <a target="_blank" href="https://twitter.com/UttarakhandSG">
             <i className="fa-brands fa-twitter"></i>
           </a>
-          <a href="">
+          <a target="_blank" href="https://instagram.com/@Uasgvibes">
             <i className="fa-brands fa-instagram"></i>
           </a>
         </div>
