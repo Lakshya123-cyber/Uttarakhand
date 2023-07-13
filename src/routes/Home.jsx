@@ -21,8 +21,8 @@ function Home() {
         url="/about"
         btnClass="show"
       />
-      <Destination />
       <Event />
+      <Destination />
       <Membership />
       <Footer />
     </>

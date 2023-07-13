@@ -14,7 +14,7 @@ const Footer = () => {
           <a target="_blank" href="https://twitter.com/UttarakhandSG">
             <i className="fa-brands fa-twitter"></i>
           </a>
-          <a target="_blank" href="https://instagram.com/@Uasgvibes">
+          <a target="_blank" href="https://instagram.com/uasgvibes">
             <i className="fa-brands fa-instagram"></i>
           </a>
         </div>
