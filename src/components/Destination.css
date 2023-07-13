@@ -22,9 +22,9 @@
 }
 
 .des-text {
-  width: 45%;
+  width: 48%;
   text-align: start;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 .des-text h2 {
@@ -33,7 +33,7 @@
 
 .image {
   position: relative;
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
   z-index: -99;

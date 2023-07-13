@@ -10,7 +10,7 @@ function Membership() {
       <div className="eventcard">
         <div className="e-card">
           <div className="e-image">
-            <img alt="image" src="/images/kauthig.jpg" />
+            <img alt="image" src="/images/valley.jpg" />
           </div>
           <h4>Annual Plan</h4>
           <p style={{ fontWeight: "bold", color: "#642420", fontSize: "23px" }}>
@@ -34,7 +34,7 @@ function Membership() {
         </div>
         <div className="e-card">
           <div className="e-image">
-            <img alt="image" src="/images/kauthig.jpg" />
+            <img alt="image" src="/images/jim.jpg" />
           </div>
           <h4>5 Year Plan</h4>
           <p style={{ fontWeight: "bold", color: "#642420", fontSize: "23px" }}>
@@ -58,7 +58,7 @@ function Membership() {
         </div>
         <div className="e-card">
           <div className="e-image">
-            <img alt="image" src="/images/kauthig.jpg" />
+            <img alt="image" src="/images/dev.jpg" />
           </div>
           <h4>Lifetime Plan</h4>
           <p style={{ fontWeight: "bold", color: "#642420", fontSize: "23px" }}>
