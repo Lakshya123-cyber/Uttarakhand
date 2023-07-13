@@ -37,9 +37,10 @@ video {
 }
 
 .hero-text p {
-  font-size: 3rem;
+  font-size: 1.3rem;
+
   color: #fff;
-  padding: 0.5rem 0 2rem 0;
+  padding: 2rem 10rem 2rem 13rem;
 }
 
 .hero-text .show {

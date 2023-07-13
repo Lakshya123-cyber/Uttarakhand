@@ -6,7 +6,11 @@ function Membership() {
   return (
     <div className="event">
       <h1>Our Membership</h1>
-      <p>Check out our membership program</p>
+      <p>
+        Join UASG to network with Uttarakhandis in Singapore, fulfill social
+        responsibilities, participate in events, support charitable programs in
+        Uttarakhand, and be part of a motivated team.
+      </p>
       <div className="eventcard">
         <div className="e-card">
           <div className="e-image">

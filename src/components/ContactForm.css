@@ -56,4 +56,8 @@ button:hover {
     padding-top: 2rem;
     width: 90%;
   }
+
+  .map {
+    width: 100%;
+  }
 }
