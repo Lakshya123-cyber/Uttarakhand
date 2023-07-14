@@ -22,8 +22,35 @@ function Home() {
         btnClass="show"
       />
       <Event />
+      <img
+        src="/images/banner.png"
+        style={{
+          width: "100%",
+          height: "100%",
+          marginTop: "-10px",
+          marginBottom: "-4px",
+        }}
+      />
       <Destination />
+      <img
+        src="/images/banner.png"
+        style={{
+          width: "100%",
+          height: "100%",
+          marginTop: "-10px",
+          marginBottom: "-4px",
+        }}
+      />
       <Membership />
+      <img
+        src="/images/banner.png"
+        style={{
+          width: "100%",
+          height: "100%",
+          marginTop: "-8px",
+          marginBottom: "-10px",
+        }}
+      />
       <Footer />
     </>
   );

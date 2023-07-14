@@ -27,11 +27,10 @@ function Events() {
             </div>
             <h4>Kauthig 2023</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero
-              aliquid doloribus cum ab, iusto perferendis eligendi aliquam
-              adipisci soluta. Saepe expedita laudantium enim quas natus? Qui
-              corporis aliquid, dolore facilis animi dolor, nesciunt itaque et
-              atque hic vitae unde!
+              Kauthig is a traditional folk dance and music festival celebrated
+              in the state of Uttarakhand, India. It is a significant cultural
+              event that showcases the vibrant heritage and traditions of the
+              region.
             </p>
             <br />
             <br />
@@ -44,24 +43,26 @@ function Events() {
           <EventData
             image="/images/diwali.jpeg"
             heading="Diwali 2022"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
+            text="Diwali, also known as Deepavali, is one of the most widely celebrated festivals in India and holds great cultural and religious significance. It is often referred to as the Festival of Lights. Diwali is celebrated with immense enthusiasm and joy by people of various faiths, not only in India but also around the world."
           />
           <EventData
             image="/images/kauthig.jpg"
             heading="Kauthig 2019"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
+            text="Kauthig is a traditional folk dance and music festival celebrated in
+            the state of Uttarakhand, India. It is a significant cultural event
+            that showcases the vibrant heritage and traditions of the region."
           />
         </div>
         <div className="eventcard">
           <EventData
             image="/images/holi.jpg"
             heading="Holi 2019"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
+            text="Holi is a vibrant and joyous festival celebrated in India and by Hindu communities around the world. Also known as the Festival of Colors Holi marks the arrival of spring and the victory of good over evil. It is a time when people come together to celebrate with enthusiasm and merriment."
           />
           <EventData
             image="/images/redd.jpg"
             heading="Red Cross Volunteering"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
+            text="Volunteering with the Red Cross is a rewarding and impactful experience that allows individuals to make a positive difference in the lives of people facing emergencies, disasters, and crises. The Red Cross is a humanitarian organization known worldwide for its commitment to providing assistance, support, and relief to those in need."
           />
         </div>
       </div>

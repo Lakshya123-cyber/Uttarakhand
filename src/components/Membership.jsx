@@ -17,15 +17,10 @@ function Membership() {
             <img alt="image" src="/images/valley.jpg" />
           </div>
           <h4>Annual Plan</h4>
-          <p style={{ fontWeight: "bold", color: "#642420", fontSize: "23px" }}>
+          <p style={{ fontWeight: "bold", color: "#642420", fontSize: "20px" }}>
             Your Investment: SGD 120
           </p>
-          <ul className="ul">
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li style={{ textDecoration: "line-through" }}>Feature 3</li>
-            <li style={{ textDecoration: "line-through" }}>Feature 4</li>
-          </ul>
+          <br />
           <div className="member-text">
             <a
               target="_blank"
@@ -41,15 +36,10 @@ function Membership() {
             <img alt="image" src="/images/jim.jpg" />
           </div>
           <h4>5 Year Plan</h4>
-          <p style={{ fontWeight: "bold", color: "#642420", fontSize: "23px" }}>
+          <p style={{ fontWeight: "bold", color: "#642420", fontSize: "20px" }}>
             Your Investment: SGD 500
           </p>
-          <ul className="ul">
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
-            <li style={{ textDecoration: "line-through" }}>Feature 4</li>
-          </ul>
+          <br />
           <div className="member-text">
             <a
               target="_blank"
@@ -65,15 +55,10 @@ function Membership() {
             <img alt="image" src="/images/dev.jpg" />
           </div>
           <h4>Lifetime Plan</h4>
-          <p style={{ fontWeight: "bold", color: "#642420", fontSize: "23px" }}>
+          <p style={{ fontWeight: "bold", color: "#642420", fontSize: "20px" }}>
             Your Investment: SGD 1000
           </p>
-          <ul className="ul">
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
-            <li>Feature 4</li>
-          </ul>
+          <br />
           <div className="member-text">
             <a
               target="_blank"

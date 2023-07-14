@@ -2,8 +2,8 @@ import "./AboutUs.css";
 
 function AboutUs() {
   return (
-    <div className="about-container">
-      <h1>Our Story</h1>
+    <div className="about-container" style={{ fontFamily: "Open Sans" }}>
+      <h1 style={{ fontFamily: "Rosemate Sans" }}>Our Story</h1>
       <p>
         Our story began in the nineties! The Uttarakhand community in Singapore
         constituted of a small group of families who had migrated to Singapore
@@ -27,7 +27,7 @@ function AboutUs() {
       </p>
       <br />
 
-      <h1>Our Values</h1>
+      <h1 style={{ fontFamily: "Rosemate Sans" }}>Our Values</h1>
       <p>
         The UASG was officially registered in 2014 with 25 families as official
         members. Since then, our numbers have grown and it is with a great sense
@@ -45,7 +45,7 @@ function AboutUs() {
       </p>
       <br />
 
-      <h1>Our Mission</h1>
+      <h1 style={{ fontFamily: "Rosemate Sans" }}>Our Mission</h1>
       <p>
         The Uttarakhand Association of Singapore (UASG) aims to create a strong
         and united community by valuing our cultural identities through the

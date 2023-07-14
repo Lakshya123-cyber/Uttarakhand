@@ -18,7 +18,7 @@ function Members() {
         btnClass="hide"
       />
       <div className="member">
-        <div className="membercard">
+        <div className="membercard" style={{ fontFamily: "Open Sans" }}>
           <MemberData
             image="/images/harish.JPEG"
             heading="Harish Pant"
@@ -35,7 +35,7 @@ function Members() {
             text="The Secretary of Uttarakhand Association of Singapore"
           />
         </div>
-        <div className="membercard">
+        <div className="membercard" style={{ fontFamily: "Open Sans" }}>
           <MemberData
             image="/images/nirupma.jpeg"
             heading="Nirupma Thapliyal"

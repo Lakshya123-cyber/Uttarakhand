@@ -7,7 +7,7 @@ function Event() {
   return (
     <div className="event">
       <h1>Our Events</h1>
-      <p>Check out our ongoing and recent events</p>
+      <p className="para">Check out our ongoing and recent events</p>
       <div className="eventcard">
         <div className="e-card">
           <div className="e-image">
@@ -15,11 +15,9 @@ function Event() {
           </div>
           <h4>Kauthig 2023</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero
-            aliquid doloribus cum ab, iusto perferendis eligendi aliquam
-            adipisci soluta. Saepe expedita laudantium enim quas natus? Qui
-            corporis aliquid, dolore facilis animi dolor, nesciunt itaque et
-            atque hic vitae unde!
+            Kauthig is a traditional folk dance and music festival celebrated in
+            the state of Uttarakhand, India. It is a significant cultural event
+            that showcases the vibrant heritage and traditions of the region.
           </p>
           <br />
           <br />
@@ -32,12 +30,12 @@ function Event() {
         <EventData
           image="/images/diwali.jpeg"
           heading="Diwali 2019"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
+          text="Diwali, also known as Deepavali, is one of the most widely celebrated festivals in India and holds great cultural and religious significance. It is often referred to as the Festival of Lights. Diwali is celebrated with immense enthusiasm and joy by people of various faiths, not only in India but also around the world."
         />
         <EventData
-          image="/images/kauthig.jpg"
-          heading="Kauthig 2019"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero aliquid doloribus cum ab, iusto perferendis eligendi aliquam adipisci soluta. Saepe expedita laudantium enim quas natus? Qui corporis aliquid, dolore facilis animi dolor, nesciunt itaque et atque hic vitae unde!"
+          image="/images/holi.jpg"
+          heading="Holi 2019"
+          text="Holi is a vibrant and joyous festival celebrated in India and by Hindu communities around the world. Also known as the Festival of Colors Holi marks the arrival of spring and the victory of good over evil. It is a time when people come together to celebrate with enthusiasm and merriment."
         />
       </div>
     </div>

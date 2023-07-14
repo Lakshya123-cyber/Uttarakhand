@@ -1,10 +1,20 @@
 .event {
   margin: 4rem;
   color: #2a2a2a;
+  font-family: "Open Sans", sans-serif;
 }
 
 .event h1 {
   font-size: 3rem;
+  font-family: "Rosemate Sans";
+}
+
+.event .para {
+  font-family: "Rosemate Sans";
+}
+
+.event p {
+  line-height: 25px;
 }
 
 .eventcard {
@@ -14,7 +24,7 @@
 }
 
 .e-card {
-  width: 16%;
+  width: 24%;
   text-align: start;
   box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.1);
   border-radius: 7px;

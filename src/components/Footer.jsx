@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <div className="footerContainer">
+      <div className="footerContainer" style={{ fontFamily: "Open Sans" }}>
         <div className="socialIcons">
           <a
             target="_blank"
@@ -35,7 +35,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="footerBottom">
+      <div className="footerBottom" style={{ fontFamily: "Open Sans" }}>
         <p>
           Copyright &copy;2023; Designed and Developed by{" "}
           <a

@@ -2,8 +2,8 @@ import "./ContactForm.css";
 
 function ContactForm() {
   return (
-    <div className="form-container">
-      <h1>Send a message to us!</h1>
+    <div className="form-container" style={{ fontFamily: "Open Sans" }}>
+      <h1 style={{ fontFamily: "Rosemate Sans" }}>Send a message to us!</h1>
       <form action="">
         <input placeholder="Name" />
         <input placeholder="Email" />
