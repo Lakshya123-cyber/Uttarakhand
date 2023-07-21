@@ -79,11 +79,12 @@ video {
 
 @media screen and (max-width: 555px) {
   .hero-text h1 {
+    font-size: 2rem;
     padding: 10px 20px;
   }
 
   .hero-text p {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     padding: 0 0 2rem 0;
   }
 
