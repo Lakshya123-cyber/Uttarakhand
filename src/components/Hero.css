@@ -78,9 +78,13 @@ video {
 }
 
 @media screen and (max-width: 555px) {
+  .hero-text {
+    top: 47%;
+  }
+
   .hero-text h1 {
     font-size: 2rem;
-    padding: 10px 20px;
+    padding: 12px 20px;
   }
 
   .hero-text p {
