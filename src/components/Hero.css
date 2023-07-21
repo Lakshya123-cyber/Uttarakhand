@@ -2,14 +2,14 @@
   width: 100%;
   height: 100vh;
   position: relative;
-  font-family: "Rosemate Sans Regular", sans-serif;
+  font-family: "Rosemate Sans", sans-serif;
 }
 
 .hero-mid {
   width: 100%;
   height: 70vh;
   position: relative;
-  font-family: "Rosemate Sans Regular", sans-serif;
+  font-family: "Rosemate Sans", sans-serif;
 }
 
 .hero-mid h1 {

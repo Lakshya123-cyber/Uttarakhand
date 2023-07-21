@@ -7,6 +7,11 @@
   /* font-family: "Rosemate Sans Regular", sans-serif; */
 }
 
+@font-face {
+  font-family: "Rosemate Sans";
+  src: url("/Rosemate-Sans.ttf");
+}
+
 .App {
   text-align: center;
 }
