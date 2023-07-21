@@ -12,6 +12,11 @@
   src: url("/Rosemate-Sans.ttf");
 }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("/Opensans.ttf");
+}
+
 .App {
   text-align: center;
 }
