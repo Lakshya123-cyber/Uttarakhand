@@ -4,7 +4,6 @@ import Destination from "../components/Destination";
 import Event from "../components/Event";
 import Footer from "../components/Footer";
 import Membership from "../components/Membership";
-import Heroh from "../components/heroh";
 
 function Home() {
   useEffect(() => {
@@ -13,9 +12,11 @@ function Home() {
   }, []);
   return (
     <>
-      <Heroh
+      <Hero
         cName="hero"
-        heroVid="/videos/background.mp4"
+        heroVid="/videos/videoo.mp4"
+        title="WELCOME TO UTTARAKHAND ASSOCIATION OF SINGAPORE"
+        subtitle="KNOW MORE ABOUT OUR UPCOMING EVENT!"
         btnText="UPCOMING EVENT"
         url="/kauthig.pdf"
         btnClass="show"
