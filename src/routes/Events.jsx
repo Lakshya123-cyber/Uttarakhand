@@ -19,7 +19,7 @@ function Events() {
       />
       <div className="event">
         <h1>Our Events and Community Supports</h1>
-        <p>Check out our ongoing and recent events</p>
+        <p>Check out our recent events</p>
         <div className="eventcard">
           <div className="e-card">
             <div className="e-image">
@@ -32,13 +32,6 @@ function Events() {
               event that showcases the vibrant heritage and traditions of the
               region.
             </p>
-            <br />
-            <br />
-            <a href="/kauthig.pdf" target="_blank" rel="noopener noreferrer">
-              <button style={{ color: "white", backgroundColor: "#652420" }}>
-                Read More
-              </button>
-            </a>
           </div>
           <EventData
             image="/images/diwali.jpeg"

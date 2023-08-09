@@ -7,7 +7,7 @@ function Event() {
   return (
     <div className="event">
       <h1>Our Events</h1>
-      <p className="para">Check out our ongoing and recent events</p>
+      <p className="para">Check out our recent events</p>
       <div className="eventcard">
         <div className="e-card">
           <div className="e-image">
@@ -19,13 +19,6 @@ function Event() {
             the state of Uttarakhand, India. It is a significant cultural event
             that showcases the vibrant heritage and traditions of the region.
           </p>
-          <br />
-          <br />
-          <a href="/kauthig.pdf" target="_blank" rel="noopener noreferrer">
-            <button style={{ color: "white", backgroundColor: "#652420" }}>
-              Read More
-            </button>
-          </a>
         </div>
         <EventData
           image="/images/diwali.jpeg"

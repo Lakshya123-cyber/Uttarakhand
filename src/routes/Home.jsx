@@ -16,9 +16,9 @@ function Home() {
         cName="hero"
         heroVid="/videos/videoo.mp4"
         title="WELCOME TO UTTARAKHAND ASSOCIATION OF SINGAPORE"
-        subtitle="KNOW MORE ABOUT OUR UPCOMING EVENT!"
-        btnText="UPCOMING EVENT"
-        url="/kauthig.pdf"
+        subtitle="हमारी UASG की Website में आपका स्वागत है!"
+        btnText="ABOUT US"
+        url="/about"
         btnClass="show"
       />
       <Event />
