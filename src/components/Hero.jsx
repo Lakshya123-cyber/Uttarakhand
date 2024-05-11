@@ -1,4 +1,5 @@
-import "./Hero.css";
+/* eslint-disable react/prop-types */
+import './Hero.css';
 
 function Hero(props) {
   return (
