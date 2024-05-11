@@ -18,7 +18,7 @@ function Events() {
         btnClass="hide"
       />
       <div className="event">
-        <h1>Our Events and Community Supports</h1>
+        <h1>OUR EVENTS</h1>
         <p>Check out our recent events</p>
         <div className="eventcard">
           <EventData
@@ -52,6 +52,22 @@ function Events() {
             image="/images/holi.jpg"
             heading="Holi 2019"
             text="Holi is a vibrant and joyous festival celebrated in India and by Hindu communities around the world. Also known as the Festival of Colors Holi marks the arrival of spring and the victory of good over evil. It is a time when people come together to celebrate with enthusiasm and merriment."
+          />
+        </div>
+        <br />
+        <br />
+        <h1>COMMUNITY EVENTS</h1>
+        <p>Check out our recent community events</p>
+        <div className="eventcard">
+          <EventData
+            image="/images/newyear.jpg"
+            heading="Indian New Year"
+            text="Indian New Year, also known as Puthandu, Vishu, Baisakhi, or Ugadi, is celebrated by various communities across India to mark the beginning of the new year. It is a time of joy, renewal, and hope, with people coming together to celebrate with family, friends, and loved ones."
+          />
+          <EventData
+            image="/images/pooja.jpg"
+            heading="Laxminarayan Pooja"
+            text="Laxminarayan Pooja is a traditional Hindu ritual performed to seek the blessings of Lord Vishnu and Goddess Lakshmi for prosperity, wealth, and well-being. It is a sacred and auspicious ceremony that is observed with devotion and reverence by devotees around the world."
           />
           <EventData
             image="/images/redd.jpg"
