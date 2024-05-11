@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
-import Hero from "../components/Hero";
-import Footer from "../components/Footer";
-import MemberData from "../components/MemberData";
+import { useEffect } from 'react';
+import Hero from '../components/Hero';
+import Footer from '../components/Footer';
+import MemberData from '../components/MemberData';
 
 function Members() {
   useEffect(() => {
     // scroll to top on page load
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }, []);
   return (
     <>
@@ -18,14 +18,14 @@ function Members() {
         btnClass="hide"
       />
       <div className="member">
-        <div className="membercard" style={{ fontFamily: "Open Sans" }}>
+        <div className="membercard" style={{ fontFamily: 'Open Sans' }}>
           <MemberData
             image="/images/harish.JPEG"
             heading="Harish Pant"
             text="The President of Uttarakhand Association of Singapore"
           />
           <MemberData
-            image="/images/atima.jpg"
+            image="/images/atima.jpeg"
             heading="Atima Joshi"
             text="The Vice President of Uttarakhand Association of Singapore"
           />
@@ -35,14 +35,14 @@ function Members() {
             text="The Secretary of Uttarakhand Association of Singapore"
           />
         </div>
-        <div className="membercard" style={{ fontFamily: "Open Sans" }}>
+        <div className="membercard" style={{ fontFamily: 'Open Sans' }}>
           <MemberData
-            image="/images/nirupma.jpeg"
+            image="/images/nirupma.jpg"
             heading="Nirupma Thapliyal"
             text="The Treasurer of Uttarakhand Association of Singapore"
           />
           <MemberData
-            image="/images/hamini.jpeg"
+            image="/images/himanmi.jpg"
             heading="Himani Kukreti"
             text="The Assistant Treasurer of Uttarakhand Association of Singapore"
           />

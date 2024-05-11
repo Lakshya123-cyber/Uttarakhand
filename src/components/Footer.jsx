@@ -1,20 +1,31 @@
-import "./Footer.css";
+import './Footer.css';
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
     <footer>
-      <div className="footerContainer" style={{ fontFamily: "Open Sans" }}>
+      <div className="footerContainer" style={{ fontFamily: 'Open Sans' }}>
         <div className="socialIcons">
           <a
             target="_blank"
             href="https://youtube.com/@UttarakhandAssociationofSG"
+            rel="noreferrer"
           >
             <i className="fa-brands fa-youtube"></i>
           </a>
-          <a target="_blank" href="https://twitter.com/UttarakhandSG">
+          <a
+            target="_blank"
+            href="https://twitter.com/UttarakhandSG"
+            rel="noreferrer"
+          >
             <i className="fa-brands fa-twitter"></i>
           </a>
-          <a target="_blank" href="https://instagram.com/uasgvibes">
+          <a
+            target="_blank"
+            href="https://instagram.com/uasgvibes"
+            rel="noreferrer"
+          >
             <i className="fa-brands fa-instagram"></i>
           </a>
         </div>
@@ -35,13 +46,14 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="footerBottom" style={{ fontFamily: "Open Sans" }}>
+      <div className="footerBottom" style={{ fontFamily: 'Open Sans' }}>
         <p>
-          Copyright &copy;2023; Designed and Developed by{" "}
+          Copyright &copy; {year}; Designed and Developed by{' '}
           <a
             target="_blank"
-            href="https://raikwal-homepage.vercel.app/"
+            href="https://raikwal-portfolio.vercel.app/"
             className="dev"
+            rel="noreferrer"
           >
             Lakshya Raikwal
           </a>

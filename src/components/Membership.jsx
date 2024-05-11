@@ -1,6 +1,5 @@
-import React from "react";
-import "./Hero.css";
-import "./Event.css";
+import './Hero.css';
+import './Event.css';
 
 function Membership() {
   return (
@@ -17,7 +16,7 @@ function Membership() {
             <img alt="image" src="/images/valley.jpg" />
           </div>
           <h4>Annual Plan</h4>
-          <p style={{ fontWeight: "bold", color: "#642420", fontSize: "20px" }}>
+          <p style={{ fontWeight: 'bold', color: '#642420', fontSize: '20px' }}>
             Your Investment: SGD 120
           </p>
           <br />
@@ -26,6 +25,7 @@ function Membership() {
               target="_blank"
               href="https://forms.gle/hXm1oKvJkwxVcH7s9"
               className="show"
+              rel="noreferrer"
             >
               BUY NOW
             </a>
@@ -36,7 +36,7 @@ function Membership() {
             <img alt="image" src="/images/jim.jpg" />
           </div>
           <h4>5 Year Plan</h4>
-          <p style={{ fontWeight: "bold", color: "#642420", fontSize: "20px" }}>
+          <p style={{ fontWeight: 'bold', color: '#642420', fontSize: '20px' }}>
             Your Investment: SGD 500
           </p>
           <br />
@@ -45,6 +45,7 @@ function Membership() {
               target="_blank"
               href="https://forms.gle/hXm1oKvJkwxVcH7s9"
               className="show"
+              rel="noreferrer"
             >
               BUY NOW
             </a>
@@ -55,7 +56,7 @@ function Membership() {
             <img alt="image" src="/images/dev.jpg" />
           </div>
           <h4>Lifetime Plan</h4>
-          <p style={{ fontWeight: "bold", color: "#642420", fontSize: "20px" }}>
+          <p style={{ fontWeight: 'bold', color: '#642420', fontSize: '20px' }}>
             Your Investment: SGD 1000
           </p>
           <br />
@@ -64,6 +65,7 @@ function Membership() {
               target="_blank"
               href="https://forms.gle/hXm1oKvJkwxVcH7s9"
               className="show"
+              rel="noreferrer"
             >
               BUY NOW
             </a>

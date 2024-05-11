@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
-import Hero from "../components/Hero";
-import Footer from "../components/Footer";
-import ContactForm from "../components/ContactForm";
+import { useEffect } from 'react';
+import Hero from '../components/Hero';
+import Footer from '../components/Footer';
+import ContactForm from '../components/ContactForm';
 
 function Contact() {
   useEffect(() => {
     // scroll to top on page load
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   }, []);
   return (
     <>

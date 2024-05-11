@@ -1,7 +1,7 @@
-import { Component, useState } from "react";
-import "./NavbarStyle.css";
-import { MenuItems } from "./MenuItems";
-import { Link } from "react-router-dom";
+import { Component } from 'react';
+import './NavbarStyle.css';
+import { MenuItems } from './MenuItems';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -20,12 +20,12 @@ class Navbar extends Component {
 
           <div className="menu-icons" onClick={this.handleClick}>
             <i
-              className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
+              className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}
             ></i>
           </div>
 
           {open && (
-            <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+            <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
               {MenuItems.map((item, i) => (
                 <li key={i} onClick={this.state.clicked}>
                   <Link className={item.cName} to={item.url}>
