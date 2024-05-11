@@ -6,10 +6,11 @@ function Membership() {
     <div className="event">
       <h1>Our Membership</h1>
       <p>
-        Join UASG to network with Uttarakhandis in Singapore, fulfill social
-        responsibilities, participate in events, support charitable programs in
-        Uttarakhand, and be part of a motivated team.
+        Join UASG to network with Uttarakhandis in Singapore,
+        <br /> fulfill social responsibilities, participate in events, and be
+        part of a motivated team.
       </p>
+
       <div className="eventcard">
         <div className="e-card">
           <div className="e-image">
