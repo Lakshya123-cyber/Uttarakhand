@@ -13,8 +13,31 @@
   font-size: 1.2rem;
 }
 
+.image-box {
+  padding: 10px 10px 7px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.aboutImage {
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 850px) {
   .about-container {
     margin: 4rem 2rem;
+  }
+
+  .image-box {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .aboutImage {
+    width: 100%;
+    height: auto;
   }
 }
