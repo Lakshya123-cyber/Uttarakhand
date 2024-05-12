@@ -1,4 +1,5 @@
-import "./Event.css";
+/* eslint-disable react/prop-types */
+import './Event.css';
 
 function EventData(props) {
   return (
@@ -6,7 +7,9 @@ function EventData(props) {
       <div className="e-image">
         <img alt="image" src={props.image} />
       </div>
-      <h4>{props.heading}</h4>
+      <a href="/gallery" style={{ textDecoration: 'none', color: '#652420' }}>
+        <h4>{props.heading}</h4>
+      </a>
       <p>{props.text}</p>
     </div>
   );
